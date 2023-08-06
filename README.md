@@ -3,7 +3,7 @@
 [-] It is necessary to add to the stores the sending email with the code (Verify Email / Reset Password)
 [-] You need to add the payment method to the cart
 
-The code is very chaotic to configure the store go to application -> config.php
+The code is very chaotic to configure the store go to application -> config.php <br>
 The code is very chaotic to configure the dashboard go to dasboard -> application -> config.php
 
 ![shop](https://github.com/HexorCo/shop-dashboard/assets/97565183/5fba6e4c-fe06-4633-8ee3-e7e132752243)
