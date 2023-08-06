@@ -1,7 +1,7 @@
 # shop-dashboard
 
-[-] It is necessary to add to the stores the sending email with the code (Verify Email / Reset Password)
-[-] You need to add the payment method to the cart
+[-] It is necessary to add to the stores the sending email with the code (Verify Email / Reset Password)<br>
+[-] You need to add the payment method to the cart<br>
 
 The code is very chaotic to configure the store go to application -> config.php <br>
 The code is very chaotic to configure the dashboard go to dasboard -> application -> config.php
