@@ -1,6 +1,6 @@
 # shop-dashboard
 
 
+![shop](https://github.com/HexorCo/shop-dashboard/assets/97565183/5fba6e4c-fe06-4633-8ee3-e7e132752243)
 
-![dashboardhexorco](https://github.com/HexorCo/shop-dashboard/assets/97565183/03a330ce-a1a1-4291-92d8-cb6ecbd5ac70)
-![dashboard](https://github.com/HexorCo/shop-dashboard/assets/97565183/f1e549d2-3862-4c7a-8dfc-7c819776d00e)
+![dashboardhexorco](https://github.com/HexorCo/shop-dashboard/assets/97565183/668766f3-6dc3-446d-9320-2f2d2b9ae212)
