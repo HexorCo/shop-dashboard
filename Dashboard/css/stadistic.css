@@ -1,0 +1,307 @@
+#pl-1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chart-style{
+    position: relative;
+    width: calc(70% - 20px);
+    height: 350px ;
+    background-color: rgb(255,255,255);
+    border: 1px solid rgba(226, 232, 240) !important;
+    border-radius: 3px; 
+}
+#pl-1 #view-visitors{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.chart-style h1{
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.chart-style h2{
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.chart-style i{
+    position: absolute;
+    left: 20px;
+    top: 28px;
+    width: 50px;
+    height: calc(50px - 10px);
+    background-color: rgba(0, 255, 229, 0.132);
+    
+    border: 1px solid rgba(226, 232, 240) !important;
+    font-size: 30px;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 40px;
+    color:var(--color_primary);
+}
+
+
+#pl-1 .switch-year-back{
+    width: calc(30% - 40px);
+    height: auto;
+    overflow: auto;
+}
+#pl-1 .switch-year-back .switch-year-item-back{
+    margin: auto;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    position: relative;
+    width: 95%;
+    height: 70px;
+    margin-bottom: 10px;
+    background-color: rgb(255,255,255);
+    
+    border: 1px solid rgba(226, 232, 240) !important;
+    border-radius: 6px;
+    border: solid 2px rgb(0,0,0,0);
+}
+#pl-1 .switch-year-back .switch-year-item-back:hover{
+    border: solid 2px var(--color_primary);
+    transform: translate(-2px,-2px);
+}
+#pl-1 .switch-year-back .switch-year-item-back h1{
+    transition: all .3s ease-in-out;
+    pointer-events: none;
+    position: absolute;
+    font-weight: 600;
+    left: 60px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    top: 13px;
+}
+#pl-1 .switch-year-back .switch-year-item-back:hover h1{
+    color: var(--color_primary);
+}
+#pl-1 .switch-year-back .switch-year-item-back h2{
+    transition: all .3s ease-in-out;
+    pointer-events: none;
+    position: absolute;
+    font-weight: 300;
+    left: 60px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    top: 34px;
+}
+#pl-1 .switch-year-back .switch-year-item-back:hover h2{
+    color: var(--color_primary);
+}
+#pl-1 .switch-year-back .switch-year-item-back i{
+    transition: all .3s ease-in-out;
+    pointer-events: none;
+    position: absolute;
+    width: 40px;
+    left: 10px;
+    top: calc(100% / 2 - 20px);
+    height: calc(40px - 10px);
+    background-color: rgb(248, 250, 248);
+    
+    border: 1px solid rgba(226, 232, 240) !important;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 10px;
+
+}
+#pl-1 .switch-year-back .switch-year-item-back:hover i{
+    color: var(--color_primary);
+}
+
+
+
+
+#pl-2{
+    padding: 10px;
+    display: flex;
+}
+#pl-2 .panel-a{
+    width: 40%;
+}
+
+
+#pl-2 .info-view-back{
+    overflow: hidden;
+    position: relative;
+    height: 80px;
+    margin-bottom: 5px;
+    background-color: rgb(255,255,255);
+    border: 1px solid rgba(226, 232, 240) !important;
+    border-radius: 3px;
+    border: solid 2px rgb(0,0,0,0);
+    transition: all .3s ease-in-out;
+}
+
+.info-view-icon-2{
+    position: absolute;
+    right: -10px;
+    bottom: -30px;
+    font-size: 90px;
+    transform: rotate(5deg);
+    transition: all .3s ease-in-out;
+    opacity: 0.1;
+}
+#pl-2 .info-view-back:hover .info-view-icon-2{
+    color: var(--color_primary);
+}
+
+#pl-2 .info-view-back:hover{
+    border: solid 2px var(--color_primary);
+}
+#pl-2 .info-view-back .info-view-icon{
+    transition: all .3s ease-in-out;
+    position: absolute;
+    left: 25px;
+    top: calc(100% / 2 - 30px);
+    width: 55px;
+    height: calc(45px - 5px);
+    background-color: rgb(248,250,248);
+    
+    border: 1px solid rgba(226, 232, 240) !important;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 16px;
+}
+#pl-2 .info-view-back:hover .info-view-icon{
+    color: var(--color_primary);
+}
+#pl-2 .info-view-back h1{
+    transition: all .3s ease-in-out;
+    position: absolute;
+    top: 25px;
+    left: 100px;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+#pl-2 .info-view-back:hover h1{
+    color: var(--color_primary);
+}
+#pl-2 .info-view-back h2{
+    transition: all .3s ease-in-out;
+    position: absolute;
+    top: 52px;
+    left: 100px;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+#pl-2 .info-view-back:hover h2{
+    color: var(--color_primary);
+}
+#pl-2 .info-view-back h2 i{
+    transition: all .3s ease-in-out;
+}
+#pl-2 .info-view-back:hover h2 i{
+    color: var(--color_primary);
+}
+
+
+
+
+#pl-2 .panel-b{
+    margin-left: 10px;
+    overflow: hidden;
+    width: 60%;
+}
+#pl-2 .panel-title{
+    overflow: hidden;
+    position: relative;
+    border-radius: 2px 2px 0 0;
+    width: 99.8%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(226, 232, 240) !important;
+}
+#pl-2 .panel-title  h1{
+    position: absolute;
+    font-size: 20px;
+    letter-spacing: 1px;
+    top: 22px;
+    font-weight: 700;
+    left: 20px;
+}
+#pl-2 .panel-item{
+    position: relative;
+    border: 1px solid rgba(226, 232, 240);
+    border-top: 0px rgba(226, 232, 240, 0.205);
+    width: 99.8%;
+    height: calc(100% / 5.2);
+    background-color: white;
+}
+#pl-2 .panel-item h1{
+    position: absolute; 
+    left: 60px;
+    top: 18px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 18px;
+}
+#pl-2 .panel-item h2{
+    position: absolute; 
+    right: 20px;
+    top: 24px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 18px;
+}
+#pl-2 .panel-item i{
+    position: absolute; 
+    left: 20px;
+    top: 20px;
+    font-size: 27px;
+}
+@media only screen and (max-width: 900px) {
+    #pl-1 {
+        padding-top: 60px;
+    }
+    .chart-style{
+        width: 90% !important;
+        height: 300px !important;
+        left: 5%;
+    }
+
+
+
+
+
+
+
+
+    
+
+    #pl-1 .switch-year-back{
+        margin: 10px;
+        width: 100%;
+    }
+    #pl-2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    #pl-2 .panel-a{
+        width: 100%;
+    }
+    
+    #pl-2 .panel-b{
+        height: 370px;
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+
+
+
+
+
+

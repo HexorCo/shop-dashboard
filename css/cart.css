@@ -1,0 +1,74 @@
+#cart .card{
+    position: relative;
+    border-radius: 5px;
+    height: 120px;
+}
+#cart .card img{
+    border-radius: 5px;
+    height: 50px;
+    width: 60px;
+    margin-top: 14px;
+    margin-left: 10px;
+}
+#cart .card .delete-btn{
+    background-color: #f5656547;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+
+
+#cart .card h1{
+    position: absolute;
+    bottom: 8px;
+    left: 22px;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+#cart .card h2{
+    position: absolute;
+    bottom: 25px;
+    left: 22px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#cart .card h3{
+    position: absolute;
+    top: 15px;
+    left: 92px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    padding: 5px 10px 5px 10px;
+    font-weight: 400;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 7px -1px rgba(0, 0, 0, 0.043), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+}
+
+
+#payments .card{
+    position: relative;
+    padding: 20px;
+    padding-bottom: 55px;
+}
+#payments .card .btn{
+    position: absolute;
+    bottom: 0px;
+    left: 5%;
+    width: 90%;
+}
+#payments .card h1{
+    font-size: 20px;
+}
+#payments .card h2{
+    width: 100%;
+    font-size: 18px;
+}
+#payments .card span{
+    float: right;
+}

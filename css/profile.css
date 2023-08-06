@@ -1,0 +1,40 @@
+
+
+.profile .card{
+    color: white;
+    position: relative;
+    height: 150px;
+}
+.profile .card i{
+    left: 30px;
+    top: 40px;
+    position: absolute;
+    font-size: 70px;
+}
+.profile .card h1{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    left: 120px;
+    top: 40px;
+    letter-spacing: 1px;
+}
+.profile .card h1 span{
+    position: absolute;
+    top: -20px;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    background-color: #d63384;
+    border-radius: 20px;
+    padding: 10px 15px 10px 15px;
+}
+.profile .card a{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    color: white;
+}
+.profile-back{
+    max-width: 1200px;
+    margin: 0 auto;
+}

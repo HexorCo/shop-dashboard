@@ -1,0 +1,78 @@
+
+#back-shop{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+#back-shop .card{
+    margin: 10px !important;
+}
+#back-shop .card img{
+    
+    transition: all .1s ease-in-out;
+}
+#back-shop .card img:hover{
+    transform: scale(1.01);
+}
+
+
+#back-shop .card h4{
+    font-size: 25px;
+}
+#back-shop .btn-custom{
+    margin-left: 10px;
+    margin-top: 16px;
+}
+.category{
+    height: auto;
+}
+.category h1{
+    padding-top: 40px;
+    padding-left: 40px;
+    font-size: 20px !important;
+    margin-bottom: -20px;
+}
+#back-category{
+    padding-top: 40px;
+    padding-left: 40px;
+    
+}
+#back-category a{
+    margin-top: 15px;
+    display: block;
+}
+.category-section{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 1252px) {
+    
+
+    .category{
+        margin-bottom: 20px;
+        text-align: center;
+        padding: 0 ;
+        width: 100%;
+    }
+
+    .category h1{
+        padding-top: 40px;
+        padding-left: 0;
+        margin-bottom: 10px;
+    }
+    #back-category{
+        padding-top: 0;
+        padding-left: 0;
+        
+    }
+    #back-category a{
+        margin-top: 15px;
+        margin: 10px;
+        display: inline-block;
+    }
+    
+}

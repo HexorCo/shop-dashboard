@@ -1,0 +1,235 @@
+
+body{
+        background-image: url('../img/bg.jpg');
+        background-size: cover;
+        background-position: center;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 40px rgb(227,227,227) inset !important;
+}
+#pl-1{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+#pl-1 .login-back{
+    overflow: hidden;
+    width: 90%;
+    display: flex;
+    position: relative;
+    margin: auto;
+    height: 600px;
+    background-color: rgb(255,255,255);
+    
+    border: 1px solid rgba(226, 232, 240) !important;
+    border-radius: 8px;
+}
+#pl-1 .login-back .colum-a{
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+#pl-1 .login-back .colum-a h1{
+    position: absolute;
+    bottom: 130px;
+    width: 50%;
+    left: 25%;
+    letter-spacing: 1.5px;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+#pl-1 .login-back .colum-a img{
+    opacity: 0.6;
+    position: absolute;
+    left: calc(100% / 2 - 150px);
+    top: 100px;
+    width: 300px;
+}
+#pl-1 .login-back .colum-a .line{
+    position: absolute;
+    width: 1px;
+    height: 90%;
+    top: 5%;
+    right: 0;
+    background-color: rgba(77, 77, 77, 0.1);
+}
+#pl-1 .login-back .colum-b{
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+#pl-1 .login-back .colum-b h1{
+    position: absolute;
+    left: 40px;
+    top: 130px;
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+#pl-1 .login-back .colum-b .input-box{
+    overflow: hidden;
+    position: absolute;
+    top: 200px;
+    width: 85%;
+    height: 47px;
+    background-color: rgb(247, 247, 247);
+    
+    border: 1px solid rgba(226, 232, 240) !important;
+    border-radius: 6px;
+    margin-left: 7.5%;
+}
+#pl-1 .login-back .colum-b .input-box i{
+    font-size: 22px;
+    padding-top: 13px;
+    text-align: center;
+    position: absolute;
+    color: rgb(240,240,240);
+    left: 0;
+    top: 0;
+    width: 50px;
+    height: 100%;
+    background-color: var(--color_primary);
+}
+#pl-1 .login-back .colum-b .input-box input{
+    position: absolute;
+    left: 54px;
+    width: calc(100% - 62px);
+    height: 100%;
+    background-color: rgb(247, 247, 247);
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+#pl-1 .login-back .colum-b button{
+    cursor: pointer;
+    position: absolute;
+    right:  7.5%;
+    border: none;
+    bottom: 100px;
+    width: 200px;
+    height: 44px;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    background-color: var(--color_primary);
+    border: solid 2px rgb(0,0,0,0);
+    font-size: 17px;
+}
+#pl-1 .login-back .colum-b button:hover{
+    border: solid 2px var(--color_primary_middle);
+}
+
+.aler-custom{
+    text-align: right;
+    position:absolute; 
+    top: 230px;
+     margin-top: 90px; width: 85%; 
+     height: 44px;
+     margin-left: 7.5%;
+}
+.aler-custom h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 0, 0, 0.499);
+
+}
+.aler-custom i{
+    color: rgba(255, 0, 0, 0.499);
+    font-size: 20px;
+}
+@media only screen and (max-width: 1000px) {
+    #pl-1 .login-back .colum-a img{
+        width: 80%;
+    }
+    #pl-1 .login-back .colum-a h1{
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+
+}
+@media only screen and (max-width: 750px) {
+    #pl-1 .login-back{
+        height: 800px;
+    }
+    #pl-1 .login-back{
+        flex-direction: column;
+    }
+    #pl-1 .login-back .colum-a{
+        position: relative;
+        width: 100%;
+        height: 480px;
+    }
+    #pl-1 .login-back .colum-a h1{
+        bottom: 0;
+        font-size: 23px;
+        left: 0;
+    }
+    #pl-1 .login-back .colum-b{
+        position: relative;
+        width: 100%;
+        height: 570px;
+    }
+    #pl-1{
+        height: 130vh;
+    }
+    #pl-1 .login-back .colum-a img{
+        opacity: 0.6;
+        position: absolute;
+        left: 15%;
+        top: 25px;
+        width: 70%;
+    }
+
+    #pl-1 .login-back .colum-b button{
+        cursor: pointer;
+        position: absolute;
+        right:  7.4%;
+        border: none;
+        bottom: 50px;
+        height: 44px;
+        width: calc(100% - 67px);
+        letter-spacing: 1px;
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+        background-color: rgb(56,166,173,0.6);
+        border: solid 2px rgb(0,0,0,0);
+        font-size: 17px;
+    }
+
+
+
+}
+@media only screen and (max-width: 450px) {
+    #pl-1 .login-back .colum-a h1{
+        bottom: 30px;
+        left: 25%;
+        font-size: 19px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

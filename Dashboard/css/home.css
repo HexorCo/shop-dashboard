@@ -1,0 +1,262 @@
+#pl-1{
+    margin-top: -15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#pl-1 .information-back{    
+    position: relative;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+    width: calc(100% / 4.1);
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    margin: auto;
+    margin-bottom: 10px;
+    border: 1px solid rgba(226, 232, 240) !important;
+}
+#pl-1 .information-back h1{
+    position: absolute;
+    font-size: 18px;
+    bottom: 40px;
+    left: 80px;
+}
+#pl-1 .information-back h2{
+    position: absolute;
+    font-size: 17px;
+    font-weight: 300;
+    bottom: 20px;
+    left: 80px;
+}
+#pl-1 .information-back i{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    background-color: rgb(249, 249, 249);
+    box-shadow: 1px 1px 2px rgb(0,0,0,0.1);
+    color: var(--color_primary);
+    border-radius: 50%;
+    width: 50px;
+    height: 38px;
+    padding-top: 11px;
+    font-size: 24px;
+    text-align: center;
+}
+#pl-1 .information-back a i{
+    transition: all .3s ease-in-out;
+    top: 8px;
+    width: 40px;
+    height: 33px;
+    padding-top: 4px;
+    left: calc(100% - 40px);
+    background-color: transparent;
+    box-shadow: none;
+    border-radius: 0;
+    font-size: 30px;
+    color: rgba(32, 32, 32, 0.589);
+    
+}
+#pl-1 .information-back a:hover i{
+    color: var(--color_primary);
+}
+#pl-2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#pl-2 .panel-a{
+    transition: all .3s ease-in-out;
+    position: relative;
+    width: 65%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    border: 1px solid rgba(226, 232, 240) !important;
+    margin-right: 10px;
+}
+#pl-2 .panel-a #view-visitors{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.panel-a h1{
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;    
+}
+.panel-a h2{
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;  
+}
+.panel-a i{
+    position: absolute;
+    left: 20px;
+    top: 28px;
+    width: 50px;
+    height: calc(50px - 10px);
+    background-color: rgba(0, 255, 229, 0.043);
+    
+    border: 1px solid rgba(226, 232, 240) !important;
+    font-size: 30px;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 40px;
+    color:var(--color_primary);
+}
+
+
+#pl-2 .panel-b{
+    transition: all .3s ease-in-out;
+    position: relative;
+    width: 34%;
+}
+#pl-2 .panel-b .welcome-back{
+    transition: all .3s ease-in-out;
+    position: relative;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 60px;
+    border-radius: 3px;
+    background-color: rgba(74, 85, 104);
+}
+#pl-2 .panel-b .welcome-back h1{
+    position: absolute;
+    left: 20px;
+    top: 18px;
+    color: rgba(255, 255, 255, 0.911);
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: 700;
+}
+#pl-2 .panel-b .welcome-back h1 span{
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    color: rgba(255, 10, 10, 0.911);
+}
+#pl-2 .panel-b .payments-back{
+    transition: all .3s ease-in-out;
+    border-radius: 3px;
+    width: 100%;
+    background-color: rgb(255,255,255);
+    border: 1px solid rgba(226, 232, 240) !important;
+}
+
+#pl-2 .panel-b .payments-title{
+    transition: all .3s ease-in-out;
+    position: relative;
+    width: 100%;
+    height: 55px;
+    border-bottom: 1px solid rgba(226, 232, 240) !important;
+}
+
+#pl-2 .panel-b .payments-title h1{
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#pl-2 .panel-b .payments-items{
+    transition: all .3s ease-in-out;
+    position: relative;
+    width: 100%;
+    height: 68px;
+    border-bottom: 1px solid rgba(226, 232, 240) !important;
+}
+#pl-2 .panel-b .payments-items h1{
+    position: absolute;
+    left: 60px ;
+    top: 20px;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 0.6px;
+}
+#pl-2 .panel-b .payments-items .icon    {
+    position: absolute;
+    font-size: 25px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    top: 20px;
+}
+
+#pl-2 .panel-b .payments-items a{
+    position: absolute;
+    display: block;
+    right: 15px;
+    padding: 5px 10px 5px 10px;
+    top: 15px;
+    transition: all .3s ease-in-out;
+    text-align: center;
+}
+#pl-2 .panel-b .payments-items a:hover i{
+    color: var(--color_primary);
+}
+#pl-2 .panel-b .payments-items a i{
+    transition: all .3s ease-in-out;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 1263px) {
+
+
+    #pl-2 .panel-a{
+        width: 64%;
+    }
+    #pl-2 .panel-b{
+        width: 34%;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    #pl-1{
+        padding-top: 60px;
+        justify-content: center;
+    }
+    #pl-1 .information-back{
+        width:calc(50% - 40px);
+    }
+
+
+
+    #pl-2 .panel-a{
+        margin: 10px;
+        position: relative;
+        width: 100%;
+        height: 310px;
+    }
+
+    #pl-2 .panel-b{
+        position: relative;
+        width: 100%;
+        height: 390px;
+        margin: 10px;
+    }
+
+    .payments-back{
+        
+    }
+
+}
+@media only screen and (max-width: 620px) {
+    #pl-1{
+        padding-top: 60px;
+        justify-content: center;
+    }
+    #pl-1 .information-back{
+        margin: 10px;
+        width:100%;
+    }
+    
+}
